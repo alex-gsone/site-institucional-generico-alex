@@ -34,42 +34,52 @@ span{
     border-top:solid 2px var(--color-brand-1) ;
 }
 
-.section__container{
+.banner_container{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
 
-    padding: 12%;
-}
-.faq_container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    
 
+    padding: 12%;
+   
 }
+.banner_p{
+    text-align: center;
+    width: 59%;
+    padding: 35px;
+}
+
 .about_container{
     display: flex;
-    justify-content:left;
+
     flex-direction: row;
     align-items:center;
 
+    justify-content: space-between;
+
+
     background-color: var(--color-gray-1);
+    background-color: brown;
+
+
 }
 .about_p{
 
-    background-color: brown;
+    .background-color: brown;
+    width: 44%;
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    .padding-left: 20%;
+
+    background-color:blue;
+    align-self: flex-end;
 }
 .about_h2{
 
     background-color:teal;
 }
-.half {
-    flex: 1;
-    .padding: 20px;
-  }
 .faq_button, .banner_button{
     padding: 10px;
     background-color: var(--color-brand-1);
@@ -82,27 +92,90 @@ span{
     font-size: var(--font-size-text-4);
 
 }
-
+.coments_box{
+    background-color: var(--color-brand-1);
+    width: 75%;
+    height: 1%;
+}
 .coments_container{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-items: flex-start;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.coments, .faq, .about_container{
+    padding-left:7%;
+    padding-right: 7%;
+
+}
+
+
+.box2{
+    background-color: blue;
+    width: 39.3em;
+}
+.faq_left_side{
+    background-color: green;
+    width: 50em;
+}
+.faq_container{
+    display: flex;
+   
+    flex-direction: row;
+    align-items: stretch;
+
+    justify-content: space-between;
+    background-color: brown;
+}
+.box1{
+    background-color: chocolate;
+    width: 26em;
+    text-align: justify;
+
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+
+    text-align: justify;
 }
 
-.faq_lef_side, .about_container{
-    padding: 2px 10% 20px 10%;
+.kk{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    .background-color: brown;
 }
-.faq_right_side{
-    padding: 2px 10% 20px 10%;
+.box-name{
+    .background-color:deepskyblue;
+    width: 15em;
+    padding-bottom:5em ;
 }
-
-
-
-
-
-
-
+.coments_p{
+    .background-color: goldenrod;
+    width: 25em;
+    text-align: justify;
+    padding-bottom:5em ;
+}
 
 
 footer{
