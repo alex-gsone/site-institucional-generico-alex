@@ -102,22 +102,28 @@ span{
     justify-content: center;
     flex-direction: row-reverse;
     align-items: flex-start;
-    
+    .background-color: blueviolet;
+    padding-top: 10%;    
 }
 
 .coments, .faq, .about_container{
     padding-left:7%;
     padding-right: 7%;
+    padding-top: 4%;
 
 }
 
+.faq_right_side_p{
+    padding-top: 5% ;
+    padding-bottom: 9%;
+}
 
 .box2{
     background-color: blue;
     width: 39.3em;
 }
 .faq_left_side{
-    background-color: green;
+    background-color:yellow;
     width: 50em;
 }
 .faq_container{
