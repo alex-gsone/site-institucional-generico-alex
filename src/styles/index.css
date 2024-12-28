@@ -61,7 +61,7 @@ span{
 
 
     background-color: var(--color-gray-1);
-    background-color: red;
+    .background-color: red;
 
 
 }
@@ -74,12 +74,12 @@ span{
     padding-bottom: 0%;
     .padding-left: 20%;
 
-    background-color:blue;
+    .background-color:blue;
     align-self: flex-end;
 }
 .about_h2{
 
-    background-color:teal;
+    .background-color:teal;
 }
 .faq_button, .banner_button{
     padding: 10px;
@@ -131,11 +131,11 @@ span{
 }
 
 .box2{
-    background-color: blue;
+    .background-color: blue;
     width: 39.3em;
 }
 .faq_left_side{
-    background-color:yellow;
+    .background-color:yellow;
     width: 50em;
 }
 .faq_container{
@@ -145,10 +145,10 @@ span{
     align-items: stretch;
 
     justify-content: space-between;
-    background-color: brown;
+    .background-color: brown;
 }
 .box1{
-    background-color: chocolate;
+    .background-color: chocolate;
     width: 26em;
     text-align: justify;
 
