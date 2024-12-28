@@ -95,12 +95,20 @@ span{
 }
 .coments_box{
     background-color: var(--color-brand-1);
-    width: 60%;
+    width: 22em;
     height: 1%;
-    padding-left: 7%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 10%;
     padding-top: 15%;
+    padding-bottom: 0%;
 }
+.coments_p_left{
+    width: 20em;
+    text-align: justify;
+    padding-bottom:5em ;
+    padding-top: 30px;
+}
+
 .coments_container{
     display: flex;
     justify-content: center;
@@ -174,11 +182,12 @@ span{
 }
 .coments_p{
     .background-color: goldenrod;
-    width: 20em;
+    width: 25em;
     text-align: justify;
     padding-bottom:5em ;
     padding-top: 30px;
 }
+
 
 
 footer{
