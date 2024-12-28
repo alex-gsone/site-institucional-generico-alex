@@ -163,6 +163,7 @@ span{
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    padding-right: 10%;
 
     .background-color: brown;
 }
