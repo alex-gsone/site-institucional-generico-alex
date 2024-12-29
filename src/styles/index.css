@@ -27,6 +27,10 @@ span{
     font-weight: var(--font-weight-text-4);
     font-size: var(--font-size-text-4);
 }
+body {
+    width: 1256px; 
+    margin: 0 auto;
+  }
 
 .banner{
     max-width: 100%;   
