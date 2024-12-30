@@ -132,8 +132,8 @@ body {
     width: 39.3em;
 }
 .faq_left_side{
-    .background-color:yellow;
     width: 50em;
+    position: relative;
 }
 .faq_container{
     display: flex;
@@ -145,7 +145,14 @@ body {
     .background-color: brown;
 }
 .box1{
-    .background-color: chocolate;
+    position: absolute;
+
+    .position: fixed;
+    .top: 20em;
+    .left: 5em;
+    .width: 300px; /* Exemplo de largura */
+
+
     width: 26em;
     text-align: justify;
 
