@@ -93,19 +93,19 @@ body {
     
 
     background-color: var(--color-brand-1);
-    width: 15em;
+    width: 25em;
     height: 0%;
-    padding-left: 0%;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 4%;
 
     position: sticky;
     top: 140px;
 
 }
 .coments_p_right{
-    width: 20em;
+    width: 24em;
     text-align: justify;
     padding-bottom:1em ;
     padding-top: 30px;
