@@ -90,18 +90,24 @@ body {
 
 }
 .coments_box{
+    
+
     background-color: var(--color-brand-1);
-    width: 22em;
-    height: 1%;
-    padding-left: 15%;
+    width: 15em;
+    height: 0%;
+    padding-left: 0%;
     padding-right: 10%;
-    padding-top: 15%;
+    padding-top: 1%;
     padding-bottom: 0%;
+
+    position: sticky;
+    top: 140px;
+
 }
 .coments_p_right{
     width: 20em;
     text-align: justify;
-    padding-bottom:5em ;
+    padding-bottom:1em ;
     padding-top: 30px;
 }
 
@@ -133,7 +139,7 @@ body {
 }
 .faq_left_side{
     width: 50em;
-    position: relative;
+    .position: relative;
 }
 .faq_container{
     display: flex;
@@ -145,13 +151,8 @@ body {
     .background-color: brown;
 }
 .box1{
-    position: absolute;
-
-    .position: fixed;
-    .top: 20em;
-    .left: 5em;
-    .width: 300px; /* Exemplo de largura */
-
+    position: sticky;
+    top: 140px;
 
     width: 26em;
     text-align: justify;
