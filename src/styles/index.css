@@ -90,17 +90,14 @@ body {
     font-size: var(--font-size-text-4);
 
     width: Hug (266px)px;
-height: Fixed (60px)px;
-padding: 20px 32px 20px 32px;
-gap: 10px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-
-
+    height: Fixed (60px)px;
+    padding: 20px 32px 20px 32px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 }
-.coments_box{
-    
 
+.coments_box{
     background-color: var(--color-brand-1);
     width: 25em;
     height: 0%;
@@ -167,7 +164,7 @@ opacity: 0px;
     .background-color: brown;
 }
 .box1{
-    top: 10em;
+    top: 140px;
     position: sticky;
     z-index: 0;
     text-align: justify;
