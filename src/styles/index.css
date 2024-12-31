@@ -88,6 +88,14 @@ body {
     font-weight: var(--font-weight-text-4);
     font-size: var(--font-size-text-4);
 
+    width: Hug (266px)px;
+height: Fixed (60px)px;
+padding: 20px 32px 20px 32px;
+gap: 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+
 }
 .coments_box{
     
@@ -141,6 +149,10 @@ body {
     width: 50em;
     .position: relative;
 }
+.faq_left_side_p{
+    width: 533px;
+    height: 90px;
+}
 .faq_container{
     display: flex;
    
@@ -152,15 +164,19 @@ body {
 }
 .box1{
     position: sticky;
-    top: 140px;
-
-    width: 26em;
     text-align: justify;
 
     display: flex;
     align-items:flex-start;
     justify-content:flex-start;
     flex-direction: column;
+
+    width: Fill (580px)px;
+    height: Hug (443px)px;
+    padding: 0px 0px 0px 86.4px;
+    gap: 35px;
+    opacity: 0px;
+
 }
 .faq-item{
     display: flex;
