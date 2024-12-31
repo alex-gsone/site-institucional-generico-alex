@@ -164,7 +164,7 @@ body {
     .background-color: brown;
 }
 .box1{
-    top: 140px;
+    top: 120px;
     position: sticky;
     z-index: 0;
     text-align: justify;
