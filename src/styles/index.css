@@ -211,13 +211,35 @@ body {
     padding-bottom:5em ;
     padding-top: 30px;
 }
-
-
-
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
 
     padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: var(--color-gray-2);
+
+    width: Hug (504px)px;
+    height: Hug (416px)px;
+    top: 151.5px;
+    left: 612px;
+    padding: 40px 28px 40px 28px;
+    gap: 31px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+
+    border: 2px solid rgba(76, 110, 245, 1)
+  }
+.h3_X{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
 }
