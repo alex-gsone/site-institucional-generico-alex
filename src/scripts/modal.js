@@ -1,5 +1,3 @@
-/* Desenvolva seu código aqui... */
-
 
 function handleModal() {
     const button = document.querySelector(".header_button");

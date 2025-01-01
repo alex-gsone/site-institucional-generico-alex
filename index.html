@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
+    <script src="./src/scripts/modal.js" defer></script>
     <title>Página Institucional Genérica</title>
   </head>
   <body>
@@ -16,6 +17,22 @@
         <button class="header_button">Entrar para próxima turma</button>
       </div>
     </header>
+    <dialog class='modal'>
+      <div id="modalController" class="form__group">
+
+        <form class="form" id="formId">
+          <input type="text" id="input" name="nome" required="true " placeholder="Nome"/>
+          <input type="text" id="input" name="nome" required="true " placeholder="Sobrenome"/>
+          <input type="email" id="input" required="true" name="senha" placeholder="Celular ou email">
+          <input type="password" id="input" required="true" name="senha" placeholder="Nova senha">
+          <div class="botoes">
+            <button id="closeModal" class="form__login-btn2">Fechar Model</button>
+            <button type="submit" class="form__login-btn3">Cadastrar</button>
+          </div>
+      </form>
+
+      </div>
+    </dialog>
     <main>
       <!-- ====== Section Banner ====== -->
       <section class="banner">
