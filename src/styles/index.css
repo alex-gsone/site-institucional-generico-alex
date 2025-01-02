@@ -242,6 +242,9 @@ footer{
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
+    margin: 0;
+    padding: 0%;
+
 }
 .input_modal{
     width: 448px;
@@ -249,14 +252,35 @@ footer{
     padding: 1px 0px 1px 0px;
     gap: 0px;
     opacity: 0px;
+    color: var(--color-gray-4);
+    background-color: var(--color-gray-1);
+    border-color: var(--color-gray-1);
+    font-size: var(--font-Line-height-title-1);
+
 }
 .modal_button{
-    width: Fixed 448px;
-    height: Fixed 60px;
+    width: 448px;
+    height: 60px;
     padding: 0px 32px 0px 32px;
     gap: 10px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
+}
+.p_modal{
+    color:var(--color-gray-4)
+}
+.h3_modal{
+    color:var(--color-gray-7)
+}
+.form_close{
+    width: 38px;
+    height: 32px;
 
+    color: var(--color-gray-4);
+    background-color: var(--color-gray-3);
 }
 
+.modal{
+    padding: 0%;
+    border: 0%;
+}
