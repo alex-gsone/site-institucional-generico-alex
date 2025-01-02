@@ -110,13 +110,23 @@ body {
     top: 140px;
     z-index: 0;
 
+    width: Fill (493.6px)px;
+    height: Hug (443px)px;
+    padding: 80px 52px 80px 52px;
+    gap: 35px;
+    opacity: 0px;
+
+
 
 }
 .coments_p_right{
-    width: 24em;
+    width: 389.6px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+
     text-align: justify;
-    padding-bottom:1em ;
-    padding-top: 30px;
+
 }
 
 .coments_container{
