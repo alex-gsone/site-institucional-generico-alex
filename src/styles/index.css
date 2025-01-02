@@ -243,3 +243,20 @@ footer{
     justify-content:space-between;
     align-items:center;
 }
+.input_modal{
+    width: 448px;
+    height: 60px;
+    padding: 1px 0px 1px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.modal_button{
+    width: Fixed 448px;
+    height: Fixed 60px;
+    padding: 0px 32px 0px 32px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
