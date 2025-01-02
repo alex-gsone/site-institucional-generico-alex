@@ -76,7 +76,11 @@ body {
 }
 .about_h2{
 
-    .background-color:teal;
+    width: 620px;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 0px 0px 0px 86.4px;
 }
 .faq_button, .banner_button, .modal_button{
     padding: 10px;
@@ -99,24 +103,17 @@ body {
 
 .coments_box{
     background-color: var(--color-brand-1);
-   
-
-    position: sticky;
-    top: 140px;
-    z-index: 0;
-
     width: Fill (493.6px)px;
     height: Hug (443px)px;
     padding: 80px 52px 80px 52px;
     gap: 35px;
     opacity: 0px;
-    
-
-
-
-
 }
+
 .box{
+    position: sticky;
+    top: 140px;
+    z-index: 0;
     width: Fill (580px)px;
     height: Hug (443px)px;
     padding: 0px 0px 0px 86.4px;
@@ -166,8 +163,11 @@ body {
 }
 
 .box2{
-    .background-color: blue;
-    width: 39.3em;
+    width: 583px;
+    height: 968px;
+    gap: 60px;
+    opacity: 0px;
+
 }
 .faq_left_side{
     width: 50em;
@@ -198,8 +198,8 @@ body {
     justify-content:flex-start;
     flex-direction: column;
 
-    width: Fill (580px)px;
-    height: Hug (443px)px;
+    width: 580px;
+    height: 443px;
     padding: 0px 0px 0px 86.4px;
     gap: 35px;
     opacity: 0px;
@@ -210,8 +210,22 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
     text-align: justify;
+
+    width: 583px;
+    height: 197px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.faq{
+    width: 1,728px;
+    height: 1,132px;
+    top: 1165px;
+    padding: 82px 236px 82px 236px;
+    gap: 56px;
+    opacity: 0px;
+         
 }
 
 .comment-item{
