@@ -99,12 +99,7 @@ body {
 
 .coments_box{
     background-color: var(--color-brand-1);
-    width: 25em;
-    height: 0%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 5%;
-    padding-bottom: 4%;
+   
 
     position: sticky;
     top: 140px;
@@ -115,7 +110,18 @@ body {
     padding: 80px 52px 80px 52px;
     gap: 35px;
     opacity: 0px;
+    
 
+
+
+
+}
+.box{
+    width: Fill (580px)px;
+    height: Hug (443px)px;
+    padding: 0px 0px 0px 86.4px;
+    gap: 35px;
+    opacity: 0px;
 
 
 }
@@ -125,7 +131,15 @@ body {
     gap: 0px;
     opacity: 0px;
 
+
     text-align: justify;
+
+}
+.h2_alunos{
+    width: 389.6px;
+    height: 128px;
+    gap: 0px;
+    opacity: 0px;
 
 }
 
