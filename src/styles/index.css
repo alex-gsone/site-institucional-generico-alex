@@ -93,8 +93,8 @@ body {
     font-weight: var(--font-weight-text-4);
     font-size: var(--font-size-text-4);
 
-    width: Hug (266px)px;
-    height: Fixed (60px)px;
+    width: 266px;
+    height: 60px;
     padding: 20px 32px 20px 32px;
     gap: 10px;
     border: 1px 0px 0px 0px;
@@ -103,8 +103,8 @@ body {
 
 .coments_box{
     background-color: var(--color-brand-1);
-    width: Fill (493.6px)px;
-    height: Hug (443px)px;
+    width: 493.6px;
+    height: 443px;
     padding: 80px 52px 80px 52px;
     gap: 35px;
     opacity: 0px;
@@ -114,8 +114,8 @@ body {
     position: sticky;
     top: 140px;
     z-index: 0;
-    width: Fill (580px)px;
-    height: Hug (443px)px;
+    width: 580px;
+    height: 443px;
     padding: 0px 0px 0px 86.4px;
     gap: 35px;
     opacity: 0px;
@@ -321,4 +321,7 @@ footer{
 .modal{
     padding: 0%;
     border: 0%;
+}
+dialog::backdrop{
+    background-color: rgba(0.2, 0, 0, 0.6);
 }
