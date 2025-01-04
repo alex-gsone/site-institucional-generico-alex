@@ -1,4 +1,4 @@
-.banner, .about, .faq, .coments, header, footer{
+.banner, .about, .faq, .comments, header, footer{
     background-color:var(--color-gray-2);
     color:var(--color-gray-6);
 }
@@ -350,10 +350,13 @@ dialog::backdrop{
     gap: 0px;
     opacity: 0px;
 }
-.coments{
+
+/*Comments*/
+.comments{
     padding-top: 10px;
 }
-.coments_container{
+
+.comments_container{
 
     max-width:1256px;
     display: flex;
@@ -364,10 +367,11 @@ dialog::backdrop{
     padding-top: 10%;
     
     margin: 0 auto;
-    padding: 2% 0;
+    padding: 20% 0;
     position: relative;
     gap: 1rem;
 }
+
 .box{
     position: sticky;
     top: 140px;
@@ -376,7 +380,6 @@ dialog::backdrop{
     height: 443px;
     padding: 3rem 3rem;
     gap: 3rem;
-
-
-
 }
+
+
