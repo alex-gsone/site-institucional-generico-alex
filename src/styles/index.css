@@ -339,6 +339,8 @@ dialog::backdrop{
 .comments_container{
 
     max-width:1256px;
+    height: 1,387px;
+
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -358,9 +360,11 @@ dialog::backdrop{
     z-index: 0;
     width: 580px;
     height: 443px;
-    padding: 3rem 3rem;
+    padding: 2% 2% 2% 2%;
     gap: 3rem;  
     background-color: var(--color-brand-1);
+    display: flex;
+    align-items: center;
 }
 
 .comments_box{
@@ -391,7 +395,6 @@ dialog::backdrop{
     .padding-right: 5%;
     .justify-content: space-between;
 }
-
 .comments_p{
     text-align: justify;
     .padding-bottom:0em ;
