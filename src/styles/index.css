@@ -72,23 +72,7 @@ body {
     gap: 35px;
     opacity: 0px;
 }
-.coments_p_right{
-    width: 389.6px;
-    height: 120px;
-    gap: 0px;
-    opacity: 0px;
 
-
-    text-align: justify;
-
-}
-.h2_alunos{
-    width: 389.6px;
-    height: 128px;
-    gap: 0px;
-    opacity: 0px;
-
-}
 .coments, .about_container{
     padding-left:7%;
     padding-right: 7%;
@@ -338,18 +322,26 @@ dialog::backdrop{
 
 .comments_container{
 
-    max-width:1256px;
-    height: 1,387px;
+    max-width:1318px;
+    display: flex;
+   
+    flex-direction: row;
+    align-items: stretch;
+
+    justify-content: space-between;
+    margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: flex-start;
     .background-color: blueviolet;
-    padding-top: 10%;
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 0%;
     
     margin: 0 auto;
-    padding: 20% 0;
+    padding
     position: relative;
     gap: 1rem;
 }
@@ -358,13 +350,15 @@ dialog::backdrop{
     position: sticky;
     top: 140px;
     z-index: 0;
-    width: 580px;
-    height: 443px;
-    padding: 2% 2% 2% 2%;
+    width: 421px;
+    height: 395px;
+    padding: 2% 3% 2% 3%;
+    margin: 1%;
     gap: 3rem;  
     background-color: var(--color-brand-1);
     display: flex;
     align-items: center;
+
 }
 
 .comments_box{
@@ -399,4 +393,19 @@ dialog::backdrop{
     text-align: justify;
     .padding-bottom:0em ;
     .padding-top: 0px;
+}
+
+.h2_alunos{
+    width: 350.6px;
+    height: 128px;
+    gap: 0px;
+    opacity: 0px;
+}
+.comments_p_right{
+    width: 344.6px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: justify;
+    padding-top: 4%;
 }
