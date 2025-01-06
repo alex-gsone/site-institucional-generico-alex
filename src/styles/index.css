@@ -17,6 +17,7 @@ span{
 .footer{
     background-color: var(--color-gray-1);
 }
+
 .header__container{
     display: flex;
     flex-direction: row;
@@ -41,21 +42,14 @@ body {
     margin: 0 auto;
   }
 
-
-
-
-
-
 .faq_button, .banner_button, .modal_button{
     padding: 10px;
     background-color: var(--color-brand-1);
     color: var(--color-gray-7);
     padding: 20px 35px 20px;
     border: solid 1px var(--color-brand-1);
-   
     font-weight: var(--font-weight-text-4);
     font-size: var(--font-size-text-4);
-
     width: 266px;
     height: 60px;
     padding: 20px 32px 20px 32px;
@@ -77,7 +71,6 @@ body {
     padding-left:7%;
     padding-right: 7%;
     padding-top: 4%;
-
 }
 
 .faq_right_side_p{
@@ -98,9 +91,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     background-color: var(--color-gray-2);
-
     width: 504px;
     height: 416px;
     top: 151.5px;
@@ -116,12 +107,10 @@ footer{
 .p_modal{
     color:var(--color-gray-4)
 }
+
 .h3_modal{
     color:var(--color-gray-7)
 }
-
-
-
 
 /*Modal*/
 .modal{
@@ -154,7 +143,6 @@ dialog::backdrop{
     padding: 9px;
     width: 8%;
     text-align: center;
-
     color: var(--color-gray-4);
     background-color: var(--color-gray-3);
 }
@@ -165,7 +153,6 @@ dialog::backdrop{
     width: 100%;
     padding: 3%;
     outline: none;
-
     color: var(--color-gray-4);
     background-color: var(--color-gray-1);
     border-color: 1px solid var(--color-gray-1);
@@ -178,7 +165,6 @@ dialog::backdrop{
     gap: 10px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
     width: 100%;
     height: 9vh;
     border-radius: 3px;
@@ -197,20 +183,19 @@ dialog::backdrop{
     align-items: center;    
 }
 .banner_container{
-
     width: 90%;
-
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     padding: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
-   
 }
+
 .banner_h1{
     text-align: center;
 }
+
 .banner_p{
     text-align: center;
     width: 59%;
@@ -221,7 +206,6 @@ dialog::backdrop{
     height: 60px;
     width: 145px;
     padding: 20px 32px;
-
     border: 1px solid var(--color-brand-1)
 }
 
@@ -335,7 +319,7 @@ dialog::backdrop{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: flex-start;
-    .background-color: blueviolet;
+    background-color: blueviolet;
     padding-top: 7%;
     padding-left: 8%;
     padding-right: 0%;
