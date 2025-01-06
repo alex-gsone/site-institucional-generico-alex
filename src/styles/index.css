@@ -319,15 +319,12 @@ dialog::backdrop{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: flex-start;
-    background-color: blueviolet;
     padding-top: 7%;
     padding-left: 8%;
     padding-right: 0%;
     
     margin: 0 auto;
     padding
-    position: relative;
-    gap: 1rem;
 }
 
 .box{
