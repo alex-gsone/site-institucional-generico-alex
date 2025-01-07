@@ -324,7 +324,6 @@ dialog::backdrop{
     padding-right: 0%;
     
     margin: 0 auto;
-    padding
 }
 
 .box{
@@ -339,11 +338,6 @@ dialog::backdrop{
     background-color: var(--color-brand-1);
     display: flex;
     align-items: center;
-
-}
-
-.comments_box{
-    
 }
 
 /*-- COMMENTS LEFT SIDE --*/
@@ -353,7 +347,6 @@ dialog::backdrop{
     align-content: space-between;
     width: 55%;
     flex-direction: column;
-    
 }
 
 .comment-item{
@@ -366,14 +359,9 @@ dialog::backdrop{
     display: flex;
     flex-direction: column;
     width: 120%;
-    .height: 0px;
-    .padding-right: 5%;
-    .justify-content: space-between;
 }
 .comments_p{
     text-align: justify;
-    .padding-bottom:0em ;
-    .padding-top: 0px;
 }
 
 .h2_alunos{
