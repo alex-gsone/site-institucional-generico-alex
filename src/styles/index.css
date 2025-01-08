@@ -409,8 +409,7 @@ dialog::backdrop{
         border: solid 1px var(--color-gray-7);
         padding: 10px 1px;
         font-weight: var(--font-weight-text-4);
-        font-size: var(--font-size-text-4);
-        
+        font-size: var(--font-size-text-4); 
     }
 
 
