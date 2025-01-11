@@ -385,8 +385,11 @@ dialog::backdrop{
     }
 }
 @media (min-width: 425px) and (max-width: 768px) {
+
+    /*Header*/
     .header{
-        background-color: var(--color-gray-1);
+        /*background-color: var(--color-gray-1);*/
+        background-color: red;
         border-bottom: 2px solid var(--color-brand-1);
         position: fixed;
         width: 100%;
@@ -407,9 +410,15 @@ dialog::backdrop{
         background-color: var(--color-gray-1);
         color: var(--color-gray-7);
         border: solid 1px var(--color-gray-7);
-        padding: 10px 1px;
+        padding: 0px 0px ;
+        padding-left: 0%;
+        margin: 0%;
         font-weight: var(--font-weight-text-4);
-        font-size: var(--font-size-text-4); 
+        font-size: var(--font-size-text-4);
+        font-size: 7px;
+    }
+    .ima{
+        width: 29%;
     }
 
 
